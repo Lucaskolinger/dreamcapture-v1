@@ -35,7 +35,7 @@ logosegment: https://res.cloudinary.com/doojtvxwn/image/upload/v1640821346/Blaue
 ---
 
 <video-header :category="category" :videosrc="video" :date="date" :length="length" :thumbnail="thumbnail"></video-header>
-<text-poster-section :description="description2" :poster="poster">
+<text-poster-section :description="description2" :poster="poster"></text-poster-section>
 
 <team-section>
   <template>
@@ -66,3 +66,5 @@ logosegment: https://res.cloudinary.com/doojtvxwn/image/upload/v1640821346/Blaue
     <team-card role="Kamera" name="Finn-Oliver Walter, Lucas Kolinger"><team-card>
   </template>
 </team-section>
+
+<video-header-yt :category="category" :date="date" :length="length"><video-header-yt>

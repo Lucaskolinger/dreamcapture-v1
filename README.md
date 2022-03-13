@@ -30,6 +30,7 @@ A single project-card instance rendering the project-name, thumbnail-image, shor
 | `<team-section>`        | Hosts a collection of `team-card`components                                                                                                                                                                                                                                           |                                                   |
 | `<team-card>`           | Renders a single team-list element; Has to live inside a `team-section` and to be wrapped within `<template>` tags. Each part of the `name` attribute seperated by a `,` is rendered as a single team-member tag. The icon is derived from `role` and the associated link from `name` | `role` `name`                                     |
 
+
 ### Example:
 
 ```
