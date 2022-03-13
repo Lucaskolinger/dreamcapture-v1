@@ -45,7 +45,7 @@ logosegment: https://res.cloudinary.com/doojtvxwn/image/upload/v1640821346/Blaue
     <team-card role="Kamera" name="Sonja Marschall Finn Walter"><team-card>
   </template>
   <template>
-    <team-card role="Kamera" name="Finn-Oliver Walter, Lucas Kolinger" isInternal=true vorschau=true><team-card>
+    <team-card role="Kamera" name="Finn-Oliver Walter, Lucas Kolinger"><team-card>
   </template>
   <template>
     <team-card role="Produktion" name="Finn-Oliver Walter (Schnitt | Ton-Mischung), Kilian Herde (Farben)"><team-card>

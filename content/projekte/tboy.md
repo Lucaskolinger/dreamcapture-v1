@@ -28,4 +28,5 @@ teammusic: Florian Dennerlein
 logo-sement: https://res.cloudinary.com/doojtvxwn/image/upload/v1640821341/tboy/logos-tboy_i78lmc.png
 ---
 
-<text-poster-section :title="title" :description="description2" :category="category"></text-poster-section>
+<video-header :videosrc="video" :thumbnail="thumbnail" :length="length" :category="category" :date="date"></video-header>
+<text-poster-section :description="description2" :poster="poster"></text-poster-section>
