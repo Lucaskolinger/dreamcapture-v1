@@ -11,6 +11,7 @@ poster: https://res.cloudinary.com/doojtvxwn/image/upload/v1641036047/Blaue%20Br
 summary: Die Geschichte eines Mädchens, das sich dem Einfluss ihres antisemitischen Umfelds entzieht und nach Jahren des Mitläufertums endlich eine klare Haltung einnimmt.
 
 video: https://res.cloudinary.com/doojtvxwn/video/upload/v1640909437/Blaue%20Briefe/blaue-briefe-teaser_ekw0nj.mp4
+link: https://www.youtube.com/embed/5-aK2_WwrmM
 
 description2: Die 17 - jährige Clara wächst mit ihrem arbeitslosen, frustrierten Vater und ihrer liebevollen, aber nicht durchsetzungsfähigen Mutter auf und absolviert ihr Schulpraktikum in einem Altenheim. Dort lernt sie einen alten Mann, den ehemaligen Geigenbauer Elias kennen, zu dem sie, auch wegen der gemeinsamen Leidenschaft zur Musik, eine besondere Beziehung aufbaut. Clara findet in Elias ein Vorbild, das sie inspiriert, aber auch motiviert. Erst später erfährt sie, dass Elias Jude ist und sie beginnt, die dumpfen Parolen ihres Vaters und der Freunde in einem anderen Licht zu sehen. Auch Elias fasst Vertrauen zu dem jungen Mädchen und erzählt ihr von seiner Brieffreundschaft zu der jüdischen Lehrerin Emmi, mit der er sich dank Clara nach vielen Jahren endlich trifft. Als Emmi später bei einem antisemitischen Attentat, wie zuletzt in Halle, ums Leben kommt, zerbricht Elias daran. Clara wird bewusst, dass es nun endlich Zeit wird, Haltung zu beziehen. Eine Geschichte über den Mut zum Widerstand, die zeigt, wie sehr jeder Einzelne egal welchen Alters dazu beisteuern kann, dass wir eine offene Gesellschaft bilden, in der Antisemitismus und Rechtsextremismus keinen Platz einnehmen. #keinenmillimeternachrechts
 
@@ -67,4 +68,4 @@ logosegment: https://res.cloudinary.com/doojtvxwn/image/upload/v1640821346/Blaue
   </template>
 </team-section>
 
-<video-header-yt :category="category" :date="date" :length="length"><video-header-yt>
+<video-header-yt :category="category" :date="date" :length="length" :link="link"><video-header-yt>

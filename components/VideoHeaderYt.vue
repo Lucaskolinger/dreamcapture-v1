@@ -2,7 +2,7 @@
   <div>
     <iframe
       class="video"
-      src="https://www.youtube.com/embed/5-aK2_WwrmM"
+      :src="link"
       title="YouTube video player"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  props: ["category", "date", "length"],
+  props: ["category", "date", "length", "link"],
 };
 </script>
 
