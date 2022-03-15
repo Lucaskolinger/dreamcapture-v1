@@ -65,4 +65,3 @@ A single project-card instance rendering the project-name, thumbnail-image, shor
   </template>
 </team-section>
 ```
-# Das ist ein Test für Git
