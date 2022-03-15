@@ -64,8 +64,5 @@ A single project-card instance rendering the project-name, thumbnail-image, shor
     <team-card role="Kamera" name="Finn-Oliver Walter, Lucas Kolinger"><team-card>
   </template>
 </team-section>
-
-
-
-
 ```
+# Das ist ein Test für Git
