@@ -48,7 +48,7 @@
 
 <script>
 export default {
-  props: ["link", "role", "name", "isInternal"],
+  props: ["role", "name"],
   data() {
     return {
       roleProduction: "Produktion",
@@ -62,9 +62,6 @@ export default {
     for (const string of strings) {
       const linkElement = document.createElement("a");
       linkElement.textContent = string;
-      if (this.isInternal) {
-        linkElement.target = "_self";
-      }
       linkElement.target = "_blank";
       linkElement.style.borderRadius = "1rem";
       linkElement.style.backgroundColor = "#01233f";
