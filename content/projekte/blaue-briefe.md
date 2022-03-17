@@ -40,7 +40,7 @@ logosegment: https://res.cloudinary.com/doojtvxwn/image/upload/v1640821346/Blaue
 
 <team-section>
   <template>
-    <team-card role="Produktion" name="Finn-Oliver Walter (Schnitt | Ton-Mischung), Kilian Herde (Farben), Hans Wurst, Keine Ahnung, Untitles, Was Weiß Ich"><team-card>
+    <team-card role="Produktion" name="Finn-Oliver Walter (Schnitt | Ton-Mischung), Kilian Herde (Farben)"><team-card>
   </template>
   <template>
     <team-card role="Kamera" name="Sonja Marschall Finn Walter"><team-card>
@@ -50,21 +50,6 @@ logosegment: https://res.cloudinary.com/doojtvxwn/image/upload/v1640821346/Blaue
   </template>
   <template>
     <team-card role="Produktion" name="Finn-Oliver Walter (Schnitt | Ton-Mischung), Kilian Herde (Farben)"><team-card>
-  </template>
-  <template>
-    <team-card role="Kamera" name="Sonja Marschall, Finn Walter"><team-card>
-  </template>
-  <template>
-    <team-card role="Kamera" name="Finn-Oliver Walter, Lucas Kolinger"><team-card>
-  </template>
-  <template>
-    <team-card role="Produktion" name="Finn-Oliver Walter (Schnitt | Ton-Mischung), Kilian Herde (Farben)"><team-card>
-  </template>
-  <template>
-    <team-card role="Kamera" name="Sonja Marschall, Finn Walter"><team-card>
-  </template>
-  <template>
-    <team-card role="Kamera" name="Finn-Oliver Walter, Lucas Kolinger"><team-card>
   </template>
 </team-section>
 
