@@ -155,7 +155,6 @@ export default {};
 
   .nav-item.nuxt-link-exact-active {
     svg {
-      stroke: $dc-dark;
     }
   }
 }
