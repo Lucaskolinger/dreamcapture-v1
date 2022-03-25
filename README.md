@@ -1,4 +1,4 @@
-# Source code for 
+# Source code for the Dreamcapture Website
 www.dreamcapture.de
 
 ## Tech-stack
