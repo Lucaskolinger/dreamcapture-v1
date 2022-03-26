@@ -1,5 +1,6 @@
 <template>
   <nav class="navigation">
+    <div class="spacer"></div>
     <nuxt-link to="/" class="logo">
       <logo />
     </nuxt-link>
@@ -88,9 +89,7 @@
         </svg>
       </nuxt-link>
     </div>
-    <!-- <div class="copyright">
-      <p class="copyright-string">copyright @ Dreamcapture | 2022</p>
-    </div> -->
+    <div class="spacer"></div>
   </nav>
 </template>
 
@@ -106,7 +105,7 @@ export default {};
   grid-area: navigation;
 
   display: grid;
-  grid-template-columns: 15rem 1fr 15rem;
+  grid-template-columns: 1rem 1fr 1rem;
   grid-template-rows: 100%;
 
   @media (min-width: $bp-large) {
@@ -116,16 +115,15 @@ export default {};
   }
 
   .nav-items {
-    width: 6rem;
     margin-inline: auto;
-    border-radius: 2rem;
     display: flex;
-    background-color: $dc-blue;
     align-items: center;
-    justify-content: space-around;
+    gap: 2rem;
 
     @media (min-width: $bp-large) {
       flex-direction: column;
+      width: 6rem;
+      gap: 3rem;
     }
   }
 
@@ -153,23 +151,21 @@ export default {};
     }
   }
 
-  .nav-item.nuxt-link-exact-active {
-    svg {
+  .spacer {
+    @media (min-width: $bp-large) {
+      display: none;
     }
   }
-}
-
-.copyright {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-items: center;
 }
 
 .placeholder {
   width: 100%;
   height: 0.25rem;
   background-color: $dc-blue;
+  display: none;
+
+  @media (min-width: $bp-large) {
+    display: block;
+  }
 }
 </style>
