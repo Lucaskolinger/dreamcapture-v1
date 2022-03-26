@@ -160,11 +160,10 @@ button {
     border-radius: 1rem;
     width: max-content;
     margin-inline: auto;
+    transition: 0.25s cubic-bezier(0, 1.5, 1, 1.5);
 
     &:hover {
-      transform: translateY(-1rem) scale(105%);
-      margin-top: 4rem;
-      box-shadow: 1px 1px $dc-orange;
+      transform: scale(105%);
     }
 
     h1 {

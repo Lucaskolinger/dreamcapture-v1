@@ -25,6 +25,23 @@
         <p class="text">
           {{ text }}
         </p>
+        <div class="arrow-container">
+          <p>Filmografie</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z"
+            />
+          </svg>
+        </div>
       </div>
     </div>
     <ul v-if="showExtended" class="extended-content">
@@ -229,6 +246,23 @@ export default {
     p {
       margin-top: 1rem;
       line-height: 1.5;
+    }
+
+    .arrow-container {
+      display: flex;
+      margin-top: 1.5rem;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      gap: 0.5rem;
+
+      p {
+        margin-top: 0;
+      }
+
+      svg {
+        width: 1.5rem;
+      }
     }
   }
 }
