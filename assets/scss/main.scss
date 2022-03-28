@@ -89,10 +89,12 @@ video {
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  scrollbar-width: none;
 }
 
 body {
   line-height: 1;
+  background-color: $dc-blue;
 }
 
 article,
@@ -177,10 +179,6 @@ hr {
 input,
 select {
   vertical-align: middle;
-}
-
-body {
-  background-color: $dc-blue;
 }
 
 // Scrollbars

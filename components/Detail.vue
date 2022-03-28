@@ -26,5 +26,10 @@ export default {
   @media (min-width: $bp-medium) {
     padding-inline: 1rem;
   }
+
+  @media (min-width: $bp-large) {
+    max-width: 80rem;
+    margin-inline: auto;
+  }
 }
 </style>

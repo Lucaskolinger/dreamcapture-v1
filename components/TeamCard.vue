@@ -1,5 +1,5 @@
 <template>
-  <a :href="link" target="_blank" class="card">
+  <a target="_blank" class="card">
     <div class="content-wrapper">
       <div class="role-row">
         <svg
