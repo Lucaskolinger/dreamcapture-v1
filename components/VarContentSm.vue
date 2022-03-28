@@ -52,7 +52,7 @@ export default {
 .button-section {
   margin-block: 1rem;
   display: flex;
-  background-color: $tailwind-bg;
+  background-color: $dc-dark;
   align-items: center;
   justify-content: center;
   padding-inline: 1rem;
@@ -61,7 +61,7 @@ export default {
     display: block;
     width: 50%;
     padding: 1rem;
-    background-color: $tailwind-bg;
+    background-color: $dc-dark;
     cursor: pointer;
     border-style: none;
     color: white;
