@@ -93,7 +93,7 @@ export default {
   background-color: $dc-dark;
   margin-bottom: 0.5rem;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   border-radius: 0.5rem;
   padding-block: 0.5rem;
   color: #cad4e0;
