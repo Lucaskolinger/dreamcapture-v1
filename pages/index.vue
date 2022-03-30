@@ -18,6 +18,7 @@ export default {
 
 .home {
   display: none;
+  visibility: hidden;
   @media (min-width: $bp-medium) {
     display: block;
   }
