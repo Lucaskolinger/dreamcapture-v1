@@ -19,6 +19,11 @@ export default {
 @import "~assets/scss/variables";
 
 .detail-wrapper {
-  height: 100%;
+  height: calc(100vh - 4rem);
+  overflow-y: scroll;
+
+  @media (min-width: $bp-large) {
+    height: 100vh;
+  }
 }
 </style>

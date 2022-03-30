@@ -43,33 +43,35 @@ export default {
 
 .container {
   grid-area: vcs;
+  background-color: $dc-dark;
+  height: calc(100vh - 4rem);
+  overflow-y: scroll;
 
   @media (min-width: $bp-medium) {
     display: none;
   }
-}
-
-.button-section {
-  margin-block: 1rem;
-  display: flex;
-  background-color: $dc-dark;
-  align-items: center;
-  justify-content: center;
-  padding-inline: 1rem;
-
-  .toggle-btn {
-    display: block;
-    width: 50%;
-    padding: 1rem;
+  .button-section {
+    margin-block: 1rem;
+    display: flex;
     background-color: $dc-dark;
-    cursor: pointer;
-    border-style: none;
-    color: white;
-  }
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1rem;
 
-  .active {
-    background-color: $t-3;
-    border-radius: 0.5rem;
+    .toggle-btn {
+      display: block;
+      width: 50%;
+      padding: 1rem;
+      background-color: $dc-dark;
+      cursor: pointer;
+      border-style: none;
+      color: white;
+    }
+
+    .active {
+      background-color: $dc-blue;
+      border-radius: 0.5rem;
+    }
   }
 }
 </style>
