@@ -13,6 +13,7 @@ export default {};
   grid-area: home;
   width: 100%;
   height: 100vh;
+  color: red;
 
   display: flex;
   justify-content: center;

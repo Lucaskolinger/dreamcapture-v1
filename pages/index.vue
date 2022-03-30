@@ -17,11 +17,12 @@ export default {
 @import "~assets/scss/variables";
 
 .home {
-  display: none !important;
+  display: none;
   width: 0;
   height: 0;
+
   @media (min-width: $bp-medium) {
-    display: block;
+    display: flex;
     width: 100%;
     height: 100vh;
   }
