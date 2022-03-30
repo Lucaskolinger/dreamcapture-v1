@@ -18,7 +18,7 @@ export default {
 
 .home {
   display: none;
-  visibility: hidden;
+  background-color: red;
   @media (min-width: $bp-medium) {
     display: block;
   }
