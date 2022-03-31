@@ -44,7 +44,7 @@ export default {
 @import "~assets/scss/variables";
 
 .container {
-  background-color: #011a38;
+  background-color: #8eb5e6;
   grid-area: cardlist;
   width: 100%;
   z-index: 100;

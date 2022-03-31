@@ -43,9 +43,7 @@ export default {
 
 .container {
   grid-area: vcs;
-  background-color: $dc-dark;
-  height: calc(100vh - 4rem);
-  overflow-y: scroll;
+  background-color: red;
 
   @media (min-width: $bp-medium) {
     display: none;

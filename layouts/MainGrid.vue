@@ -14,10 +14,9 @@ export default {};
 @import "~assets/scss/variables";
 
 .main-grid {
-  height: 100vh;
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 4rem 1fr;
+  grid-template-rows: 4rem calc(100vh - 4rem);
   grid-template-areas:
     "navigation"
     "vcs";

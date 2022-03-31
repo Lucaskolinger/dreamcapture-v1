@@ -11,10 +11,10 @@ export default {};
 
 .container {
   grid-area: home;
+  background-color: green;
   width: 100%;
-  height: 100vh;
-  color: red;
 
+  color: red;
   display: flex;
   justify-content: center;
   align-items: center;
