@@ -16,7 +16,7 @@ export default {};
 .main-grid {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 4rem calc(100vh - 4rem);
+  grid-template-rows: 4rem 8rem;
   grid-template-areas:
     "navigation"
     "vcs";

@@ -47,6 +47,8 @@ export default {
   background-color: #8eb5e6;
   grid-area: cardlist;
   width: 100%;
+  height: calc(100vh - 9.125rem);
+  overflow-y: scroll;
   z-index: 100;
 
   display: grid;
@@ -57,7 +59,7 @@ export default {
   align-content: start;
 
   @media (min-width: $bp-medium) {
-    overflow-y: scroll;
+    height: 100vh;
   }
 
   @media (min-width: $bp-large) {
