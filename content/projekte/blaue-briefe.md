@@ -36,7 +36,12 @@ logosegment: https://res.cloudinary.com/doojtvxwn/image/upload/v1640821346/Blaue
 ---
 
 <video-header :category="category" :videosrc="video" :date="date" :length="length" :thumbnail="thumbnail"></video-header>
+
+<spacer></spacer>
+
 <text-poster-section :description="description2" :poster="poster"></text-poster-section>
+
+<spacer></spacer>
 
 <team-section>
   <template>
@@ -53,7 +58,11 @@ logosegment: https://res.cloudinary.com/doojtvxwn/image/upload/v1640821346/Blaue
   </template>
 </team-section>
 
+<spacer></spacer>
+
 <video-header-yt :category="category" :date="date" :length="length" :link="link"></video-header-yt>
+
+<spacer></spacer>
 
 <cast-section>
   <template>

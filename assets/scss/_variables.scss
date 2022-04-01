@@ -2,13 +2,7 @@
 $dc-blue: #01233f;
 $dc-orange: #f36f22;
 $dc-dark: #011a38;
-$tailwind-bg: #0d1528;
-
-$t-1: #a6779e;
-$t-2: #b4a6d1;
-$t-3: #1d283a;
-$t-4: #518ea6;
-$t-5: #aedff2;
+$dc-darker: #0d1528;
 
 // Breakpoints
 $bp-small: 37.5em; // 600px
@@ -39,12 +33,3 @@ $breakpoints: (
   // 2560px
 );
 
-// Color Map
-
-$testColors: (
-  "t1": #a6779e,
-  "t2": #b4a6d1,
-  "t3": #6a4ea6,
-  "t4": #518ea6,
-  "t5": #aedff2,
-);
