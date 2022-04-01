@@ -8,6 +8,9 @@ www.dreamcapture.de
 - Netlify
 - Cloudinary
 
+## Contributing
+To learn more about how to add new pages and use the component library, check out the wiki-tab!
+
 
 
 
