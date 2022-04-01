@@ -11,9 +11,17 @@
 @import "~assets/scss/variables";
 
 .container {
-  width: 100%;
   font-size: 1rem;
   margin-bottom: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+
+  margin-inline: 1rem;
+
+  @media (min-width: $bp-medium) {
+    margin-inline: 0;
+  }
 }
 
 .spacer {
