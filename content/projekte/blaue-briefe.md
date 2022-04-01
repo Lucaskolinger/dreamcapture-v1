@@ -53,4 +53,19 @@ logosegment: https://res.cloudinary.com/doojtvxwn/image/upload/v1640821346/Blaue
   </template>
 </team-section>
 
-<video-header-yt :category="category" :date="date" :length="length" :link="link"><video-header-yt>
+<video-header-yt :category="category" :date="date" :length="length" :link="link"></video-header-yt>
+
+<cast-section>
+  <template>
+    <cast-card rolename="Rollenname" name="echtername" :img="poster"></cast-card>
+  </template>
+  <template>
+    <cast-card rolename="fiofhaiofhoi" name="fföö" :img="poster"></cast-card>
+  </template>
+  <template>
+    <cast-card rolename="füafiaosoiah" name="fnk" :img="detail1"></cast-card>
+  </template>
+  <template>
+    <cast-card rolename="ljkajlka" name="jj" :img="poster"></cast-card>
+  </template>
+</cast-section>
