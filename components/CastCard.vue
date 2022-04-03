@@ -33,6 +33,7 @@ export default {
 .single-card {
   display: flex;
   background-color: $dc-dark;
+  box-shadow: 0px 0px 34px 1px rgba(243, 111, 34, 0.51);
   color: #cad4e0;
   gap: 1.5rem;
   align-items: center;

@@ -97,6 +97,7 @@ export default {
   border-radius: 0.5rem;
   padding-block: 0.5rem;
   color: #cad4e0;
+  box-shadow: 0px 0px 34px 1px rgba(243, 111, 34, 0.51);
 
   .content-wrapper {
     display: flex;

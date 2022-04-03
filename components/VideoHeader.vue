@@ -27,6 +27,7 @@ export default {
 
 .video {
   width: 100%;
+  box-shadow: 0px 0px 34px 1px rgba(243, 111, 34, 0.51);
 
   @media (min-width: $bp-medium) {
     border-radius: 0.5rem;
