@@ -11,7 +11,14 @@
 
 <script>
 export default {
-  props: ["description", "poster"],
+  props: {
+    description: {
+      required: true,
+    },
+    poster: {
+      required: true,
+    },
+  },
 };
 </script>
 
