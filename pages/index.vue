@@ -1,6 +1,6 @@
 <template>
   <div>
-    <var-content-sm />
+    <var-content-sm></var-content-sm>
     <home class="home" />
   </div>
 </template>
