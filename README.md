@@ -1,17 +1,12 @@
-# Source code for the Dreamcapture Website
-www.dreamcapture.de
+## www.dreamcapture.de
+# Source Code for Version 1 (Deprecated)
+
+First version of a personal Website for a friend of mine. 
 
 ## Tech-stack
 
-- Nuxt.js
-- Nuxt Content
-- Netlify
-- Cloudinary
-
-## Contributing
-To learn more about how to add new pages and use the component library, check out the wiki-tab!
-- Get a preview of the current development state here: [www.dreamcapture-test.netlify.app](https://dreamcapture-test.netlify.app)
-
-
-
+- Vue.js + Nuxt.js (V2) with options API
+- Nuxt Content with dynamic components
+- Hosted on Netlify
+- Cloudinary for Images 
 
