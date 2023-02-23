@@ -1,7 +1,7 @@
 # www.dreamcapture.de
 ## Source Code for Version 1 (Deprecated)
 
-First version of a personal Website for a friend of mine (Movie Production). 
+First version of a personal Website for a friend of mine who produces movies. 
 It was one of my first bigger projects where I learned a lot of the core concepts of CSS and Vue js.
 It was a big playground for me and it's accordingly messy.
 
